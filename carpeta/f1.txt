@@ -1,4 +1,26 @@
-Hola de nuevo
-me llamo andrea
-y estoy practicando con el github
+Resumen de  los comandos:
+
+los diferentes repositorios son los siguientes:
+    working directory, la carpeta del proyecto 
+    working area, areal temporal
+
+git init solo una vez por proyecto, iniciamos un repositorio
+
+git status -s nos indica la situacion 
+        ?? no se sabe que está pasando, no tiene seguimiento
+        A significa que esta en el area temporal
+
+git add . nos agrega todos al area temporal y posteriormente al hacer git commit, se agregaran todos
+
+git add index.html solo agrega ese
+
+git commit -m "comentario", es conveniente agregar comenatario siempre,
+esto nos sirve para viajar en el tiempo, pasado, presente y futuro del proyecto segun el tiempo
+en resumen, saca una fotografia de como esta ahora por si queremos volver mas adelante a esa version
+
+
+esto lo que hace es que lo envia al repositorio remoto, es lo que corresponde al github(nube)
+es decir hace una foto un flash por si queremos volver a la version anterior
+
+
 
