@@ -36,4 +36,3 @@ Para cambiar el repositorio:
         1. git remote -v
         2. git remote rm origin, con esto eliminados el repositorio remoto usado
         3. git remote add origin ..... linea que te da el nuevo repositorio al crearlo
-        
