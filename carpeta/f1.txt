@@ -28,3 +28,12 @@ Para volver a una version anterior:
      3. git reset --hard codigo, se vuelve a atrás al que se queria
      4. y si luego nuevamente se quiere ir al que se estaba se vuelve a poner  git reset --hard codigo
 
+Para trabajar de forma remota lo que se hace es que se va al github se crea nuevo repositorio
+y la segunda línea se copia en el visual. Esto es gracias a la url dada al crear el nuevo repositorio
+y seguidamente se copia la segunda linea
+
+Para cambiar el repositorio:
+        1. git remote -v
+        2. git remote rm origin, con esto eliminados el repositorio remoto usado
+        3. git remote add origin ..... linea que te da el nuevo repositorio al crearlo
+        
