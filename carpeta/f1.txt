@@ -39,3 +39,13 @@ Para cambiar el repositorio:
 
 git push para subir lo que hay en local a github git remote -v
 git pull para subir lo que hay en github(remote) a local, es decir para sincronizar.
+
+Ramas:
+        1. Crear rama git branch ramaparrafo(nombreRama)
+        2. Para movernos e ir por esa rama, git checkout (nombre rama), ya no estamos en rama master si no en rama parrafo
+        3. Para saber en que rama estamos o cuantas hay git branch
+        4. git add y git commit para guardar en esa rama
+        5. para unir ambas ramas primero volvemos a la rama master git checkout nombreRama
+        6. para unir git merge nombreRama
+        7. para eliminar la ramaparrafo git branch -d nombreRama
+
