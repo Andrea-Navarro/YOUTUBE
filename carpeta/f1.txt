@@ -36,3 +36,6 @@ Para cambiar el repositorio:
         1. git remote -v
         2. git remote rm origin, con esto eliminados el repositorio remoto usado
         3. git remote add origin ..... linea que te da el nuevo repositorio al crearlo
+
+git push para subir lo que hay en local a github git remote -v
+git pull para subir lo que hay en github(remote) a local, es decir para sincronizar.
