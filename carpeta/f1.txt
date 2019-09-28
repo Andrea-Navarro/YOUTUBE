@@ -48,4 +48,6 @@ Ramas:
         5. para unir ambas ramas primero volvemos a la rama master git checkout nombreRama
         6. para unir git merge nombreRama
         7. para eliminar la ramaparrafo git branch -d nombreRama
-
+        8. Puede ocurrir que se haga modificaciones del mismo documento en el master y en la rama, por lo tanto
+           Cuando queramos unirlos no va a saber cual de las 2 queremos y nos mostrara una pantallita para que decidamos cual
+           
