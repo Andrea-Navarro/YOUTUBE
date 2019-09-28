@@ -18,9 +18,13 @@ git commit -m "comentario", es conveniente agregar comenatario siempre,
 esto nos sirve para viajar en el tiempo, pasado, presente y futuro del proyecto segun el tiempo
 en resumen, saca una fotografia de como esta ahora por si queremos volver mas adelante a esa version
 
+una vez que hemos hecho foto y hemos seguido editando lo que hacemos es que si queremos que se guarde esa version
+volvemos con el git add . volvemos al area local y de nuevo hacemos un git commit -m "", es decir se vuelve
+a hacer una fotografia nueva, y se guarda
 
-esto lo que hace es que lo envia al repositorio remoto, es lo que corresponde al github(nube)
-es decir hace una foto un flash por si queremos volver a la version anterior
-
-
+Para volver a una version anterior:
+     1. git log --oneline, pintamos todos los commmit que hemos hecho
+     2. Nos sale los codigos o refenrecia segun los comentarios hechos para volver a atras
+     3. git reset --hard codigo, se vuelve a atrás al que se queria
+     4. y si luego nuevamente se quiere ir al que se estaba se vuelve a poner  git reset --hard codigo
 
